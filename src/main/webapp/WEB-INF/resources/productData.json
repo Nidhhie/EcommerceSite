@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"name": "Multicolored Beads Charm Bracelet",
+		"price": 560,
+		"image": "bracelet.jpg",
+		"otherLinks": "view more "
+	},
+	{
+		"id": 2,
+		"name": "Wooden Embossed Jewellery Box",
+		"price": 980,
+		"image": "jewelryBox.jpg",
+		"otherLinks": " view more"
+	},
+	{
+		"id": 3,
+		"name": " Park Avenue Essential Grooming Kit",
+		"price": 749,
+		"image": "ParkAvenue.jpg ",
+		"otherLinks": "view more "
+	},
+	{
+		"id": 4,
+		"name": "Beautiful Lord Ganesha Idol",
+		"price": 1200,
+		"image": "Ganpati.jpg",
+		"otherLinks": " view more"
+	}
+]
