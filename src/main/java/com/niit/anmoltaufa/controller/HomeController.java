@@ -9,6 +9,7 @@ public class HomeController {
 	@RequestMapping(value = {"/","/home"})
 	public String getHomePage()
 	{
+		//please use proper naming convention
 		return "homepage";	
 	}
 	@RequestMapping("/about")
