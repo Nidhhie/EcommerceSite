@@ -2,17 +2,18 @@
 <html lang="en">
 
 <head>
-<title>ANMOL TAUFA WELCOMES YOU</title>
+<title>Anmol taufa welcomes you</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</script>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<%@include file="/WEB-INF/views/templates/header.jsp"%>
+
 <style>
 .tales {
 	width: 100%;
@@ -32,9 +33,10 @@ body {
 	max-width: 100% !important;
 }
 
-.carousel-caption {position =absolute;
-	
-}
+.carousel-caption { position: absolute;
+    top: 45%;
+    left: 0;
+   }
 
 .thumbnail {
 	border: 0 none;
@@ -44,7 +46,6 @@ body {
 	background-color: #FAE0FD;
 }
 </style>
-<%@include file="/WEB-INF/views/templates/header.jsp"%>
 
 </head>
 
@@ -63,13 +64,13 @@ body {
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
 			<div class="item active">
-				<img src="resources/images/gift2.jpg" alt="Los Angeles">
+				<img src="resources/images/gift2.jpg" alt="">
 			</div>
 			<div class="item ">
-				<img src="resources/images/gift3.jpg" alt="Chicago">
+				<img src="resources/images/gift3.jpg" alt="">
 			</div>
 			<div class="item ">
-				<img src="resources/images/gift4.jpg" alt="New York">
+				<img src="resources/images/gift4.jpg" alt="">
 			</div>
 
 		</div>
@@ -89,7 +90,7 @@ body {
 		<div class="row">
 
 			<div class="col-md-4  ">
-				<div class="thumbnail">
+				<div class="thumbnail  text-center">
 					<a href="#"> <img src="resources/images/occasion.JPG"
 						class="img-circle">
 						<div class="carousel-caption">
@@ -102,9 +103,9 @@ body {
 
 
 			<div class="col-md-4 ">
-				<div class="thumbnail">
+				<div class="thumbnail  text-center">
 					<a href="#"> <img src="resources/images/gourmet.jpg" alt="test"
-						class="img-circle" height=110%>
+						class="img-circle">
 						<div class="carousel-caption">
 							<h1>Gourmet Gifts</h1>
 						</div>
@@ -113,7 +114,7 @@ body {
 			</div>
 
 			<div class="col-md-4 ">
-				<div class=" thumbnail">
+				<div class=" thumbnail  text-center">
 					<a href="#"> <img src="resources/images/personalize.jpg"
 						alt="test" class="img-circle">
 						<div class="carousel-caption">

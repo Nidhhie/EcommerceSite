@@ -21,6 +21,18 @@ public class Supplier implements Serializable{
 	private String supplierEmailId;
 	private String supplierAddress;
 	private String supplierNumber;
+	private String supplierDetails;
+
+	
+	public String getSupplierDetails() {
+		return supplierDetails;
+	}
+	public void setSupplierDetails(String supplierDetails) {
+		this.supplierDetails = supplierDetails;
+	}
+
+
+
 	
 	public String getSupplierNumber() {
 		return supplierNumber;

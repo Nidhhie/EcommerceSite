@@ -8,6 +8,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
+
+import org.springframework.web.multipart.MultipartFile;
 
 
 @Entity
@@ -21,6 +24,18 @@ public class Product implements Serializable{
 	private String productDescription;
 	private double productPrice;
 	private int productQuantity;
+	
+	@Transient
+	private MultipartFile image;
+
+	public MultipartFile getImage() {
+		return image;
+	}
+
+	public void setImage(MultipartFile image) {
+		this.image = image;
+	}
+
 	@ManyToOne
     @JoinColumn(name = "CATEGORY_ID")
     private ProductCategory category;

@@ -1,11 +1,9 @@
-
-
 <html>
 <head>
-<%@include file="/WEB-INF/views/templates/header.jsp" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ page isELIgnored="false"%>
+<%@include file="/WEB-INF/views/templates/header.jsp" %>
 
 </head>
 <body>
@@ -53,14 +51,21 @@
 					<td>${product.category.description}</td>
 					<td>${product.supplier.supplierDetails}</td>
   <td><a href="<c:url value="productDetail/${product.productId}" />">
-  <span class="glyphicon glyphicon-info-sign"></span></a> </td>
-				</tr>
+  <span class="glyphicon glyphicon-info-sign"></span></a>
+<a href="#"></span></a>
+<a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+<a href="#"><span class="glyphicon glyphicon-trash"></span></a>
+
+</td>
+							</tr>
+			
 			</c:forEach>
 		</table>
 </div>
 	
 
 <br/>
+</div>
 
 <div>
 <%@include file="/WEB-INF/views/templates/footer.jsp" %>

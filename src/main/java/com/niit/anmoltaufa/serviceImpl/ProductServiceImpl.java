@@ -31,4 +31,8 @@ productDao.addProduct(product);
      productDao.updateProduct(product);		
 	}
 
+	public Product getProductById(int productId) {
+	return productDao.getProductById(productId);
+	}
+
 }
